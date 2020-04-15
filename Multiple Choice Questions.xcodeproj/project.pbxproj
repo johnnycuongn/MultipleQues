@@ -56,15 +56,39 @@
 		406F6BC724472A0A00D9DAD7 /* Multiple Choice Questions */ = {
 			isa = PBXGroup;
 			children = (
+				406F6BDC24472A2C00D9DAD7 /* Model */,
+				406F6BDE24472A6100D9DAD7 /* View */,
+				406F6BDD24472A3C00D9DAD7 /* Controller */,
 				406F6BC824472A0A00D9DAD7 /* AppDelegate.swift */,
 				406F6BCA24472A0A00D9DAD7 /* SceneDelegate.swift */,
-				406F6BCC24472A0A00D9DAD7 /* ViewController.swift */,
 				406F6BCE24472A0A00D9DAD7 /* Main.storyboard */,
 				406F6BD124472A0E00D9DAD7 /* Assets.xcassets */,
 				406F6BD324472A0E00D9DAD7 /* LaunchScreen.storyboard */,
 				406F6BD624472A0E00D9DAD7 /* Info.plist */,
 			);
 			path = "Multiple Choice Questions";
+			sourceTree = "<group>";
+		};
+		406F6BDC24472A2C00D9DAD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		406F6BDD24472A3C00D9DAD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				406F6BCC24472A0A00D9DAD7 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		406F6BDE24472A6100D9DAD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
